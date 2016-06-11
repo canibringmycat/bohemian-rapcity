@@ -1,10 +1,12 @@
 ## Rap City
 Real time rap lyric generator  (*based on the original "rap-app"*) 
 
+
 ##### How it works
 1. Receives rap lyric input from the user using speech recognition
 2. Analyzes the input and searches for a word that rhymes with the previous line
 3. Outputs lyric that rhymes with the user's input to mimic intelligent "freestyle"
+
 
 
 ##### History
