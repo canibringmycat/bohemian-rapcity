@@ -1,2 +1,2 @@
-# the-rap-app
-Real-time rap generator
+# Rap City
+Real-time rap lyric generator
