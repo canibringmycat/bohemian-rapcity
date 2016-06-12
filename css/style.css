@@ -1,0 +1,176 @@
+@keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+div#mp3_player { 
+    width: 500px; 
+    height: 60px; 
+    background: #000; 
+    padding: 5px; 
+    padding-left: 13.5px; 
+    margin: 50px auto; 
+}
+
+div#mp3_player > canvas { 
+    width: 500px; 
+    height: 50px; 
+    background: #000000; 
+    float: left; 
+}
+
+p, #final-word {
+    font-family: 'Roboto Condensed';
+    color: #ead06c;
+    font-size: 21px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 7.5px;
+}
+
+span {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background: #ead06c;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 42px;
+    font-weight: normal;
+    width: 120px;
+    height: 70px;
+    line-height: 60px;
+    margin: auto;
+    text-align: center;
+    border: 0px;
+    opacity: 1;
+    transition: all 0.2s ease 0.1s;
+    cursor: pointer;
+    outline: none;
+    z-index: 1;
+}
+
+button:hover {
+    background: #ead06c;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 42px;
+    font-weight: normal;
+    width: 120px;
+    height: 70px;
+    line-height: 60px;
+    margin: auto;
+    text-align: center;
+    border: 0px;
+    transition: all 0.2s ease 0.1s;
+    opacity: 0.6;
+}
+
+button:active {
+    color: #ead06c;
+    font-family: 'Roboto Condensed';
+    font-size: 42px;
+    font-weight: normal;
+    background: black;
+    border: 5px solid #ead06c;
+    width: 120px;
+    height: 70px;
+    transition: all 0.05s ease 0.1s;
+    opacity: 0.8;
+}
+
+div p {
+    font-family: 'Roboto Condensed';
+    color: #ead06c;
+    font-size: 36px;
+}
+
+.typed-cursor {
+    font-family: 'Roboto Condensed';
+    color: #ead06c;
+    font-size: 70px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+#directive {
+    border-top: 2px solid #ead06c;
+    padding-top: 7.5px;
+}
+
+#typed {
+    font-family: 'Roboto Condensed';
+    color: #ead06c;
+    font-size: 70px;
+    margin-left: 10px; /* otherwise the cursor makes it look a little off-center */
+}
+
+#drake {
+    position: absolute;
+    left: 231px;
+    top: 389px;
+    cursor: pointer;
+}
+
+#cole {
+    position: absolute;
+    right: 191px;
+    top: 365px;
+    cursor: pointer;
+}
+
+#kanye {
+    position: absolute;
+    right: 90px;
+    top: 62px;
+    cursor: pointer;
+}
+
+#kendrick {
+    position: absolute;
+    left: 61px;
+    top: 56px;
+    cursor: pointer;
+}
+
+#start {
+    height: 50px;
+    border-radius: 1px;
+    border: 0px solid #ead06c;
+    width: 120px;
+    height: 70px;
+    margin: auto;
+    margin-top: 130px;
+    text-align: center;
+}
+
+#mobi-drake {
+    position: absolute;
+    top: 600px !important;
+    left: 0;
+    z-index: -1;
+}
+
+#mobi-cole {
+    position: absolute;
+    top: 585px !important;
+    right: 0;
+    z-index: -1;
+}
